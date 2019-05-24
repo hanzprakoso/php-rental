@@ -1,0 +1,190 @@
+body,
+pre {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card .card-title {
+    font-size: 11pt;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+header.home,
+.main.home,
+footer.home {
+    padding-left: 250px;
+}
+
+div.side {
+    padding-left: 250px;
+}
+
+header.side {
+    padding-left: 0;
+}
+
+nav .brand-logo {
+    position: absolute;
+    color: #fff;
+    display: inline-block;
+    font-size: 2.0rem;
+    padding: 0 20px;
+}
+
+.sidenav.admin {
+    z-index: 9999;
+    margin-top: 65px;
+}
+
+.sidenav li a {
+    z-index: 999999;
+}
+
+@media only screen and (max-width : 992px) {
+
+    header.home,
+    .main.home,
+    footer.home,
+    .side {
+        padding-left: 0;
+    }
+
+    div.side {
+        padding-left: 0;
+    }
+
+    .sidenav.admin {
+        margin-top: 0;
+        z-index: 9998;
+    }
+}
+
+@media only screen and (max-width : 600px) {
+    nav ul a#jam {
+        display: none;
+    }
+}
+
+.sidenav {
+    width: 250px;
+}
+
+.main .home {
+    margin: 30px;
+}
+
+.card {
+    width: 300px;
+    display: inline-block;
+    box-shadow: none;
+}
+
+.card-image {
+    height: 200px;
+}
+
+.card .card-content {
+    padding: 24px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 0 0 2px 2px;
+    width: 200px;
+    height: 50px;
+}
+
+.card .card-image img {
+    height: 200px;;
+    width: 100%;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+@media only screen and (max-width: 414px){
+    .card-image {
+        height: 100px;
+    }
+    .card .card-image img {
+        height: 100px;;
+        width: 100%;
+        object-fit: cover;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+}
+p.card-title.home {
+    margin: 0;
+}
+
+.card .card-content .card-title {
+    text-align: center;
+    display: block;
+    line-height: 32px;
+    margin-bottom: 0px;
+}
+
+.card .card-action {
+    background-color: inherit;
+    border-top: 1px solid rgba(160, 160, 160, 0.2);
+    position: relative;
+    padding: 5px 24px;
+}
+
+pre {
+    border: none;
+}
+
+.jam {
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.brand-logo {
+    font-size: 1.5rem;
+    padding-left: 50px;
+}
+
+.nav-wrapper {
+    height: 60px;
+}
+
+/*-----------container-----------*/
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 95%;
+}
+
+.card-panel .container {
+    margin: 0 auto;
+    max-width: 40%;
+    width: 95%;
+}
+
+@media only screen and (min-width: 601px) {
+    .container {
+        width: 90%;
+    }
+    .card-panel .container {
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 993px) {
+    .container {
+        width: 70%;
+    }
+    .card-panel .container {
+        width: 85%;
+    }
+}
